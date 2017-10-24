@@ -1,0 +1,51 @@
+First of all name your text file and image folder with your First and Last name (e.g. RaymundoVilano.txt and RaymundoVilano) and place it in the correct food group you were assigned.
+
+
+TextFile Instructions:
+
+You will create a textfile (.txt) that contains 20 lines (20 items) per team member. 
+
+Each line on the text file should be as follows:
+
+image_name;food_name;food_group;serving;calories;total_fat;cholesterol;sodium;potassium;carbohydrates;proteins
+
+Each item will have a corresponding:
+
+image_name - you NEED to rename the image to the item's name (e.g. Apple will be apple_image.png, include extension ".png or .jpeg")
+
+food_name - you just need to put the name of your item (e.g. apple)
+
+food_group - each kind of food group will have a respective number as follows:
+
+0 - Vegetables, salad, and fruits
+1 - Wholemeal cereals and breads, potatoes, pasta and rice
+2 - Milk, yogurt and cheese
+3 - Meat, poultry, fish, eggs, beans and nuts
+4 - Fats, spreads and oils
+5 - Foods and drinks high in fat, sugar and salt
+
+serving - amount of grams per 1 item (eg 1 Steak is 251g, 1 medium bannana is 118g) just include the grams!
+
+calories - amount of calories
+
+total_fat - amount of total fat
+
+cholesterol - same as above
+
+sodium - same as above
+
+potassium - same
+
+carbohydrates - same
+
+proteins - same
+
+Your final line should look like this:
+
+banana.png;banana;0;118;105;0.4;0;1;422;27;1.3
+
+
+
+
+Image Folder Instructions:
+Place the image files in your image folder.
