@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Foods>
+     <NutritionFacts>
+     <NutrientComponent id="1">
+          <name>Blabka</name>
+          <calories>asdasd</calories>
+          <fat>Fat</fat>
+          <sugar>asdasd</sugar>
+          <carbs>Carbs</carbs>
+          <protein>Proteins</protein>
+     </NutrientComponent>
+     <NutrientComponent id="2">
+          <name>Peanut</name>
+          <calories>Calories</calories>
+          <fat>Fat</fat>
+          <sugar>Sugars</sugar>
+          <carbs>Carbs</carbs>
+          <protein>Proteins</protein>
+     </NutrientComponent>
+     <NutrientComponent id="3">
+          <name>Mango</name>
+          <calories>Calories</calories>
+          <fat>Fat</fat>
+          <sugar>Sugars</sugar>
+          <carbs>Carbs</carbs>
+          <protein>Proteins</protein>
+     </NutrientComponent>
+</NutritionFacts>
+     <NutritionFacts>
+     <NutrientComponent id="1">
+          <name>Blabka</name>
+          <calories>asdasd</calories>
+          <fat>Fat</fat>
+          <sugar>asdasd</sugar>
+          <carbs>Carbs</carbs>
+          <protein>Proteins</protein>
+     </NutrientComponent>
+     <NutrientComponent id="2">
+          <name>Peanut</name>
+          <calories>Calories</calories>
+          <fat>Fat</fat>
+          <sugar>Sugars</sugar>
+          <carbs>Carbs</carbs>
+          <protein>Proteins</protein>
+     </NutrientComponent>
+     <NutrientComponent id="3">
+          <name>Mango</name>
+          <calories>Calories</calories>
+          <fat>Fat</fat>
+          <sugar>Sugars</sugar>
+          <carbs>Carbs</carbs>
+          <protein>Proteins</protein>
+     </NutrientComponent>
+</NutritionFacts>
+</Foods>
