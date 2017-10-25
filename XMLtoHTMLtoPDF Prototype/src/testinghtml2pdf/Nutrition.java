@@ -12,18 +12,26 @@ package testinghtml2pdf;
 public class Nutrition {
 
     private String Name;
+    private String Group;
+    private String Serving;
     private String Calories;
-    private String Fats;
-    private String Sugars;
-    private String Carbs;
+    private String TotalFats;
+    private String Cholesterol;
+    private String Sodium;
+    private String Potassium;
+    private String Carbohydrates;
     private String Proteins;
 
-	public Nutrition(String Name, String Calories, String Fats, String Sugars, String Carbs, String Proteins) {
+	public Nutrition(String Name, String Group, String Serving, String Calories, String Fats, String Cholesterol, String Sodium, String Potassium, String Carbs, String Proteins) {
 		this.Name = Name;
+                this.Group = Group;
+                this.Serving = Serving;
 		this.Calories = Calories;
-		this.Fats = Fats;
-		this.Sugars = Sugars;
-		this.Carbs = Carbs;
+		this.TotalFats = Fats;
+                this.Cholesterol = Cholesterol;
+		this.Sodium = Sodium;
+                this.Potassium = Potassium;
+		this.Carbohydrates = Carbs;
 		this.Proteins = Proteins;
 	}
 
@@ -44,46 +52,74 @@ public class Nutrition {
 	}
 
 	/**
-	 * @return the Fats
-	 */
-	public String getFats() {
-		return Fats;
-	}
+     * @return the TotalFats
+     */
+    public String getTotalFats() {
+        return TotalFats;
+    }
 
-	/**
-	 * @param Fats the Fats to set
-	 */
-	public void setFats(String Fats) {
-		this.Fats = Fats;
-	}
+    /**
+     * @param TotalFats the TotalFats to set
+     */
+    public void setTotalFats(String TotalFats) {
+        this.TotalFats = TotalFats;
+    }
 
-	/**
-	 * @return the Sugars
-	 */
-	public String getSugars() {
-		return Sugars;
-	}
+    /**
+     * @return the Cholesterol
+     */
+    public String getCholesterol() {
+        return Cholesterol;
+    }
 
-	/**
-	 * @param Sugars the Sugars to set
-	 */
-	public void setSugars(String Sugars) {
-		this.Sugars = Sugars;
-	}
+    /**
+     * @param Cholesterol the Cholesterol to set
+     */
+    public void setCholesterol(String Cholesterol) {
+        this.Cholesterol = Cholesterol;
+    }
 
-	/**
-	 * @return the Carbs
-	 */
-	public String getCarbs() {
-		return Carbs;
-	}
+    /**
+     * @return the Sodium
+     */
+    public String getSodium() {
+        return Sodium;
+    }
 
-	/**
-	 * @param Carbs the Carbs to set
-	 */
-	public void setCarbs(String Carbs) {
-		this.Carbs = Carbs;
-	}
+    /**
+     * @param Sodium the Sodium to set
+     */
+    public void setSodium(String Sodium) {
+        this.Sodium = Sodium;
+    }
+
+    /**
+     * @return the Potassium
+     */
+    public String getPotassium() {
+        return Potassium;
+    }
+
+    /**
+     * @param Potassium the Potassium to set
+     */
+    public void setPotassium(String Potassium) {
+        this.Potassium = Potassium;
+    }
+
+    /**
+     * @return the Carbohydrates
+     */
+    public String getCarbohydrates() {
+        return Carbohydrates;
+    }
+
+    /**
+     * @param Carbohydrates the Carbohydrates to set
+     */
+    public void setCarbohydrates(String Carbohydrates) {
+        this.Carbohydrates = Carbohydrates;
+    }
 
 	/**
 	 * @return the Proteins
@@ -112,6 +148,34 @@ public class Nutrition {
 	public void setName(String Name) {
 		this.Name = Name;
 	}
+        
+        /**
+     * @return the Group
+     */
+    public String getGroup() {
+        return Group;
+    }
+
+    /**
+     * @param Group the Group to set
+     */
+    public void setGroup(String Group) {
+        this.Group = Group;
+    }
+
+    /**
+     * @return the Serving
+     */
+    public String getServing() {
+        return Serving;
+    }
+
+    /**
+     * @param Serving the Serving to set
+     */
+    public void setServing(String Serving) {
+        this.Serving = Serving;
+    }
 
    
 }
