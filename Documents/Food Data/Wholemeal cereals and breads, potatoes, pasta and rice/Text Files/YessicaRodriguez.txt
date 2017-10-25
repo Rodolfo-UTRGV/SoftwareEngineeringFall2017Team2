@@ -1,0 +1,20 @@
+cheerios.png;Cheerios;1;28;100;2;0;0.14;0.18;20;3
+FiberOne_Cereal_Original.png;Fiber One Cereal Original;1;30;60;1;0;0.11;0.11;25;2
+fiberone-bread-wholewheat.png;Fiber One 100% Whole Wheat Bread;1;48;15;1.5;0;0.170;0;23;5
+FiberOne_Bread_Multigrain-1.png;Fiber One Multigrain Bread;1;48;1.5;0;0.135;0;25;4
+FiberOne_Bread_9Grain.png;Fiber One 9 Grain Bread;1;48;1.5;0;0.135;0;25;4
+HBO-Honey-Roasted.png;Honey Bunches of Oats Honey Roasted;1;30;120;1.5;0;0.135;0.055;25;2
+riceland-brown-rice.jpg;Riceland Extral Long Grain Brown Rice;1;42;150;1;0;0;0.1;32;3
+Great_Value_Brown_Rice.jpeg;Great Value Brown Rice;1;45;160;1.5;0;0;0.1;35;4
+Great_Value_100-Whole-Wheat-Bread.jpeg;Great Value 100% Whole Wheat Bread;1;28;60;1;0;0.120;0.060;12;3
+Great_Value_Multi-Grain-Bread.jpeg;Great Value Multi-Grain Bread;1;45;120;1.5;0;0.190;0.095;24;5
+h-e-b_brown_rice.jpg;HEB 100% Whole Grain Brown Rice;1;42;150;1;0;0;0;32;3
+h-e-b-bake-shop-100-whole-wheat-bread.jpg;HEB Bake Shop 100% Whole Wheat Bread;1;28;60;1;0;0.085;0.090;11;3
+h-e-b-essential-grains-12-grain-bread.jpg;HEB Essential Grains 12 Grain Bread;1;45;120;2;0;0.190;0;22;6
+skinnyPop_Popcorn.jpg;Skinny Pop Original Popped Popcorn;1;28;150;10;0;0.075;15;2
+OrvilleRedenbachers-naturals-simply-salted.png;Orville Redenbacher's Naturals Simply Salted;1;35;170;11;0;0.4;0.065;17;2 
+HBO-Granola-Dark-Chocolate.png;Honey Bunches of Oats Protein Granola with Dark Chocolate;1;50;220;7;0;0.095;0.16;32;9
+NatureValley_BoxedCereal_BakedOatBites.png;Natural Valley Baked Oat Bites Cereal;1;24;210;6;0;0.160;0.105;34;7
+NatureValley_OatmealCups_MaplePecanCrunch.png;Natural Valley Protein Oatmeal Maple Pecan Crunch;1;48;290;8;0;0.150;0.210;47;10
+NatureValley_CrunchyBar_OatsnHoney.png;Natural Valley Oats 'N Honey Crunchy Granola Bars;1;16;190;7;0;0.180;0;29;3
+ErinBakers-Branola-Oatmeal-Raisin.jpg;Erin Baker's Granola Oatmeal Rasin;1;55;250;9;0;0.01;0;38;5
