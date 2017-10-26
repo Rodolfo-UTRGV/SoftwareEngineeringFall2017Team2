@@ -51,13 +51,13 @@ public class XMLGenerator {
             doc.appendChild(mainRootElement);
 
             // Append child elements to root element
-            Nutrition nutrient1 = new Nutrition("Blabka","asdasd", "Fat", "asdasd", "Carbs", "Proteins");
+            Nutrition nutrient1 = new Nutrition("Cheerios", "Grains", "28", "100", "2", "0", "0.14", "0.18", "20", "3");
             mainRootElement.appendChild(getNutrient(doc, nutrient1, 1));
 
-            Nutrition nutrient2 =new Nutrition("Peanut","Calories", "Fat", "Sugars", "Carbs", "Proteins");
+            Nutrition nutrient2 =new Nutrition("Fiber One Cereal Original", "Grains", "30", "60", "1", "0", "0.11", "0.11", "25", "2");
             mainRootElement.appendChild(getNutrient(doc, nutrient2, 2));
 
-            Nutrition nutrient3 = new Nutrition("Mango","Calories", "Fat", "Sugars", "Carbs", "Proteins");
+            Nutrition nutrient3 = new Nutrition("Fiber One 100% Whole Wheat Bread", "Grains", "48", "15", "1.5", "0", "0.170", "0", "23", "5");
             mainRootElement.appendChild(getNutrient(doc, nutrient3, 3));
 
             // Output DOM XML to xml file 
@@ -159,11 +159,15 @@ public class XMLGenerator {
 
         // Nutrient subelements
 	nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "name", nutrientObject.getName()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "group", nutrientObject.getGroup()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "serving", nutrientObject.getServing()));
         nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "calories", nutrientObject.getCalories()));
-        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "fat", nutrientObject.getFats()));
-        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "sugar", nutrientObject.getSugars()));
-        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "carbs", nutrientObject.getCarbs()));
-        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "protein", nutrientObject.getProteins()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "total fats", nutrientObject.getTotalFats()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "cholesterol", nutrientObject.getCholesterol()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "sodium", nutrientObject.getSodium()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "potassium", nutrientObject.getPotassium()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "carbohydrates", nutrientObject.getCarbohydrates()));
+        nutrientComponent.appendChild(getJobElements(doc, nutrientComponent, "proteins", nutrientObject.getProteins()));
         return nutrientComponent;
     }
 
